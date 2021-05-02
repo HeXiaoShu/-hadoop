@@ -18,6 +18,7 @@ import java.util.Map;
  * @Date 2021/2/16
  * @modify
  */
+@RequestMapping("/file")
 @RestController
 public class FileController {
 

@@ -1,11 +1,5 @@
 package com.config;
 
-/**
- * @Description
- * @Author Hexiaoshu
- * @Date 2021/2/16
- * @modify
- */
 import java.io.Serializable;
 
 /**
@@ -14,15 +8,9 @@ import java.io.Serializable;
  * @Description: Hadoop Hdfs配置对象
  * @author:  -zzg
  * @date:   2019年7月2日 下午5:00:49
- *
- * @Copyright: 2019 www.digipower.cn
- * 注意：本内容仅限于内部使用，禁止用于其他的商业目的
  */
 public class HdfsConfig implements Serializable {
 
-    /**
-     * @Fields serialVersionUID : TODO(用一句话描述这个变量表示什么)
-     */
     private static final long serialVersionUID = -3927708731917979149L;
     // hdfs 服务器地址
     private String hostname;
